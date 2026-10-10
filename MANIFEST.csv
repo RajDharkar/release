@@ -4,7 +4,7 @@ DATA_TERMS.md,56,1,14fba6541c0de800682a8945ed7dac628702fe5b6b0491b6601dd7544f4a9
 HELD_BACK.md,18,1,2b872ebee1cb0ffd562b19b317e00a52f621f06bc375bbdc457df3638712c6f3,Exact source artifacts excluded pending the model-output redistribution review.
 LICENSE,28,1,9745267f7a126debcdd26d3c0000464e87c63dfd45084a7c1a2949f42b8167f9,MIT terms for repository source code only.
 README.md,68,1,037ba8441091098a2d732853b52b3c07133c1093274e67e35c3b4fbe5cc41250,"Overview, source identifiers, inventory summary, and release exclusions."
-data/corpus/dataset_poem_provenance.csv,738,10,4c5ac6064c937d54cebc30fb669821661f4a9bd4eea31fff2c0908bf47f9a66a,"Poem IDs, source volumes, variety labels and their basis, word counts, and retention status."
+data/corpus/dataset_poem_provenance.csv,738,10,87c78d1ae6a7ff252ab651b4a890adfeeec02e7fe1a7890e0a28e5ddeae5b054,"Poem IDs, source volumes, variety labels and their basis, word counts, and retention status."
 data/folds/rq1_full_poetry_sae_folds.csv,521,11,249761564463507527f23a0e2426d941d30cafe3467ac0652bdb5f764ea69d48,Frozen SAE evaluation-fold assignments.
 data/generation/raw_response_metadata.csv,210,13,e3f2d2d9766e5f429156f0a0c04681337ee6bebf406a680aab4694c26036c905,"Safe request and response metadata extracted from 210 raw records without prompts, completions, or authorization material."
 data/generation/rewrite_run_provenance.csv,210,18,f04c513b24bfa27a3a96dcd3a1aa28761ecd1e0388e872e4036c2cf76ebccda7,"One row per rewrite request with model settings, route, timestamp, and retention status but no text."
