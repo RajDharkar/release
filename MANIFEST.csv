@@ -1,0 +1,44 @@
+path,rows,columns,sha256,description
+.gitignore,19,1,63846c8fe184b254be00925e76749103ee850e5230c7debe0bb4686ef1fa98c3,"Ignore local environments, caches, credentials files, and large checkpoint formats."
+DATA_TERMS.md,56,1,14fba6541c0de800682a8945ed7dac628702fe5b6b0491b6601dd7544f4a94e9,"Mixed source, model, and derived-data terms without a blanket data license."
+HELD_BACK.md,18,1,2b872ebee1cb0ffd562b19b317e00a52f621f06bc375bbdc457df3638712c6f3,Exact source artifacts excluded pending the model-output redistribution review.
+LICENSE,28,1,9745267f7a126debcdd26d3c0000464e87c63dfd45084a7c1a2949f42b8167f9,MIT terms for repository source code only.
+README.md,68,1,037ba8441091098a2d732853b52b3c07133c1093274e67e35c3b4fbe5cc41250,"Overview, source identifiers, inventory summary, and release exclusions."
+data/corpus/dataset_poem_provenance.csv,738,10,4c5ac6064c937d54cebc30fb669821661f4a9bd4eea31fff2c0908bf47f9a66a,"Poem IDs, source volumes, variety labels and their basis, word counts, and retention status."
+data/folds/rq1_full_poetry_sae_folds.csv,521,11,249761564463507527f23a0e2426d941d30cafe3467ac0652bdb5f764ea69d48,Frozen SAE evaluation-fold assignments.
+data/generation/raw_response_metadata.csv,210,13,e3f2d2d9766e5f429156f0a0c04681337ee6bebf406a680aab4694c26036c905,"Safe request and response metadata extracted from 210 raw records without prompts, completions, or authorization material."
+data/generation/rewrite_run_provenance.csv,210,18,f04c513b24bfa27a3a96dcd3a1aa28761ecd1e0388e872e4036c2cf76ebccda7,"One row per rewrite request with model settings, route, timestamp, and retention status but no text."
+data/results/final_rq1_matched_poetry_crossfit_thresholds.csv,16,9,722f2f1d54eca42e99f1d12c3ec45e06e81242894fd300b220195002a9aa6216,Frozen matched-poetry cross-fit error rates and contrasts.
+data/results/final_rq1_matched_poetry_predictions.csv,3200,9,f62cce59c8539e1a8997c39da05816186e73f12a38e334f198b126825c8acb5b,Frozen matched-poetry predictions and thresholds.
+data/results/final_rq1_matched_poetry_score_stats.csv,16,18,30f0ae9e11d2d808f310991bed2d7676d16efcc71f5ad0544e6e130f9d81c70a,Frozen matched-poetry score summaries and uncertainty intervals.
+data/results/final_rq2_poetry_only_fold_counts.csv,15,4,c0c3e1e765b572acbb0f77ad2ae99037bf81b51c3dccde12a30d9160b4369fb0,Frozen RQ2 fold counts.
+data/results/final_rq2_poetry_only_paired_changes.csv,12,6,55a33dcce6e839ac278c449076766a4b9e01cfb32b6420d6110ae934044bf40d,Frozen RQ2 paired-change estimates.
+data/results/final_rq2_poetry_only_seed_metrics.csv,160,17,333cae2417864eef774db23a579b7eae5ce13addd242eff77dc0442ab9da6897,Frozen RQ2 seed-level metrics.
+data/results/final_rq2_poetry_only_summary.csv,16,20,2f87cfaaa60da06ac7a789559f52a6ab8f9758c765bdb0719a661827acb0437a,Frozen RQ2 aggregate metrics and intervals.
+data/results/rq1_operating_point_proxy_status.csv,90,21,afc6e94663ed9c6df2ba7fdbef16ae54295e463290eea5fffd2d8cc5f50b4bc2,Frozen proxy-status table across operating points.
+data/results/rq1_operating_point_sweep.csv,90,42,9caee797165c55f0d7b2e3ca5a1846e6346f5032ea2bc54b73a4b09b000d233c,Frozen natural and proxy false-positive counts and status labels across operating points.
+data/results/rq2_rq3_v03_synthesis.csv,15,15,7036e3ed035d8919453a8e7b3acfc8ab80ed093240ec4d9c94576be4715330d2,Frozen human and machine transformation-effect synthesis.
+data/results/rq2_v03_transformation_regression.csv,10,5,b35aaa9e1a0a8f5db30a9ae6239d650c8cabdb0630f5a8d205db5e4bfa943ce8,Frozen hash-based transformation regression checks.
+data/results/rq2_v03_transformation_regression.json,1,7,efbbdf555e52f7684963d147de4c4b10ea984687135b11b5702984a168742d98,Machine-readable summary of transformation regression checks.
+data/results/rq3_multivalue_version_sensitivity.csv,15,12,5537c3de0694cfea0e652653dd2351fb92e5910bb24e87225fd58f5ef2f37eed,Frozen sensitivity comparison between historical and version 0.3 transformations.
+data/results/rq3_v03_gpt2_detector_regression.csv,18,7,8b38cef78234ac92e4abde22a0dca9fcbc09a9db9e2dc91927b33ba2cb47db10,Frozen GPT-2 detector score regression sample.
+data/results/rq3_v03_gpt2_detector_regression.json,1,11,b9db4551095cba8731aeb34f7aacd9cbe7b6849a3f301669448410395ec912a2,Machine-readable GPT-2 detector regression summary.
+data/results/rq3_v03_mgt_transformation_fnr.csv,75,16,422bd1504fc43b956a563b42db08e2bf2480f351db70f50b384c4a603566ff38,Frozen machine-text false-negative results after version 0.3 transformation.
+data/results/rq3_v03_mgt_transformation_scores.csv,15,15,63409879a2050b791a91417a3b568eac3fcc5220dfc95d16311b4ef4a0fe3ef4,Frozen paired score-shift results after version 0.3 transformation.
+data/results/rq3_v03_opt_detector_regression.csv,18,7,02470decaf9073eb5ed795e2f8badeed8529a0da6d3ee96ddaf6a2f00a1d057b,Frozen OPT detector score regression sample.
+data/results/rq3_v03_opt_detector_regression.json,1,11,579b19834bfc7ca1bb8891c2f014d38c8aa978b015a5eabc74646f6f5dc84b61,Machine-readable OPT detector regression summary.
+data/results/rq3_v03_pretrained_detector_regression.csv,9,8,0028b5a8b4e9b8c3173fa9931f937cf9080310a8fce3fef049f5d94baf87a4dc,Frozen pretrained-detector score regression sample.
+data/results/rq3_v03_pretrained_detector_regression.json,1,7,57cf17707e7b67813d972060da8d597433f678cf976ce8e8cec19c369a08138e,Machine-readable pretrained-detector regression summary.
+data/scores/rq1_full_poetry_natural_scores.csv,10995,23,6e835ee0280611c3b0d70f1ea7054a84e28ed636128068e2f2c11ecaebf3d208,"Frozen natural-poetry detector scores, thresholds, and boolean decisions."
+data/scores/rq1_proxy_canonical_detector_scores.csv,7815,27,ce6f104dd45d171f600b1baeeb571f19e7509b2666a2733064cc639f9d9caba0,"Frozen detector scores and decisions for canonical transformed human SAE poems, without text."
+data/scores/rq1_proxy_original_canonical_paired_scores.csv,7815,16,e81d12cfdeccec509943a0937d1f8acd451865fcae123043b49a2cf3775cbb79,"Paired original and transformed detector scores and decisions, without text."
+data/scores/rq3_v03_detector_scores_long.csv,3135,9,017fb1b733a3e9e61374b6342fdeb122706da32154e561730889e3288b9458be,"Frozen detector scores for version 0.3 transformed machine rewrites, without text."
+data/thresholds/rq1_full_poetry_thresholds.csv,75,14,3e22028e1f9e3a264370cde766002c87db6a7c115d184fe4b00469e4646def70,Frozen primary cross-fit thresholds and held-out counts.
+data/thresholds/rq1_operating_point_thresholds.csv,450,15,1df71084e3901ac587c18ac2156348661a069ad1070cb7cc40c4fd3eb532182e,Frozen detector thresholds for all operating points and folds.
+data/transforms/mgt_output_manifest.csv,22,3,0df8040894f381661a0a3099ba9808f9bb4e800f600c15f71cdc0c096b2553a9,"Frozen file-level manifest for the machine-rewrite transformation analysis, including held-back files."
+data/transforms/rq1_proxy_sae521_batch_order.csv,521,6,220d50256499df2a963a5de5b3e84a7eedae5e21b14a5d4bab60b67b50910b37,"Canonical transformation batch order, folds, and source hashes for 521 SAE poems."
+data/transforms/rq1_proxy_sae521_multivalue_preflight.json,1,10,65ffc2c09cd327e0e9d7c3a30dd85a09f0ded931fa14ff36014729a0e837a480,Transformation preflight environment and input verification metadata.
+data/transforms/rq1_proxy_sae521_multivalue_provenance_manifest.json,1,29,bb69ca7dbf170b92efbdf8d635113e3d5377eb11e6445a0f32169fc03b96d4e1,"Transformation commands, hashes, versions, and reproducibility metadata."
+data/transforms/rq1_proxy_sae521_multivalue_rerun_verification.json,1,7,b79c5de56608f3399c08e081dfb01012d75f6a21f438b5e85751e9bbc1eb525c,Byte-level rerun verification for the canonical transformation.
+data/transforms/sae_mgt_generation_api_log_matches.csv,210,6,8cfe1c30da5662e4b0d7045afeb05dae58d49c1fd5600bb057ba584e8473b9e4,Generation-to-raw-log match counts and source paths without request or response bodies.
+data/transforms/sae_mgt_generation_manifest.csv,210,13,4d5a538623fee5bc9667b7f198ae4b5eb48377b8329aa7d7e1e16ec537b773de,"Generation IDs, source IDs, model IDs, text hashes, and inclusion decisions without text."
