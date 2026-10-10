@@ -1,0 +1,9 @@
+{
+  "created_at_utc": "2026-09-19T15:52:11.487476+00:00",
+  "exact_command": "NLTK_DATA=/Users/rdharkar/dev/paper/.venv-armc-py31020-validation/nltk_data .venv-armc-py31020-validation/bin/python src/perturb/rq1_proxy_sae521_multivalue.py rerun",
+  "identical_output_hashes": 521,
+  "mismatch_count": 0,
+  "mismatches": [],
+  "rerun_file_sha256": "bb0ae85ad99f286c51fad91c91b36ab9589e36125c90762434885bf43cc2240e",
+  "successful_first_run_rows": 521
+}

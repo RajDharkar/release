@@ -1,0 +1,13 @@
+{
+  "comparisons": 18,
+  "device": "mps",
+  "maximum_absolute_difference": 2.220446049250313e-16,
+  "observer_model_id": "facebook/opt-125m",
+  "observer_revision": "27dcfa74d334bc871f3234de431e71c6eeba5dd6",
+  "performer_model_id": "facebook/opt-1.3b",
+  "performer_revision": "3f5c25d0bc631cb57ac65913f76e22c2dfb61d62",
+  "sample_n": 3,
+  "status": "PASS",
+  "tier": "opt",
+  "tolerance": 1e-06
+}

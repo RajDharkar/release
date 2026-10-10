@@ -1,0 +1,76 @@
+detector,family,fold,target_sae_fpr,quantile_method,decision_rule,sae_calibration_n,threshold,heldout_sae_n,heldout_sae_false_positives,heldout_sae_fpr,aave_eval_n,aave_false_positives,aave_fpr
+Log Probability (GPT2-XL),zero-shot,0,0.05,higher,oriented_score > threshold; ties human,416,-2.580078125,105,8,0.0761904761904762,43,4,0.09302325581395349
+Log Probability (GPT2-XL),zero-shot,1,0.05,higher,oriented_score > threshold; ties human,417,-2.57421875,104,7,0.0673076923076923,43,6,0.13953488372093023
+Log Probability (GPT2-XL),zero-shot,2,0.05,higher,oriented_score > threshold; ties human,417,-2.564453125,104,5,0.04807692307692308,42,4,0.09523809523809523
+Log Probability (GPT2-XL),zero-shot,3,0.05,higher,oriented_score > threshold; ties human,417,-2.5234375,104,2,0.019230769230769232,42,4,0.09523809523809523
+Log Probability (GPT2-XL),zero-shot,4,0.05,higher,oriented_score > threshold; ties human,417,-2.5234375,104,2,0.019230769230769232,42,2,0.047619047619047616
+Rank (negated) (GPT2-XL),zero-shot,0,0.05,higher,oriented_score > threshold; ties human,416,-45.94736862182617,105,5,0.047619047619047616,43,0,0.0
+Rank (negated) (GPT2-XL),zero-shot,1,0.05,higher,oriented_score > threshold; ties human,417,-46.11042785644531,104,6,0.057692307692307696,43,0,0.0
+Rank (negated) (GPT2-XL),zero-shot,2,0.05,higher,oriented_score > threshold; ties human,417,-46.11042785644531,104,6,0.057692307692307696,42,0,0.0
+Rank (negated) (GPT2-XL),zero-shot,3,0.05,higher,oriented_score > threshold; ties human,417,-44.02933883666992,104,1,0.009615384615384616,42,0,0.0
+Rank (negated) (GPT2-XL),zero-shot,4,0.05,higher,oriented_score > threshold; ties human,417,-46.34188079833984,104,8,0.07692307692307693,42,0,0.0
+Log-Rank (negated) (GPT2-XL),zero-shot,0,0.05,higher,oriented_score > threshold; ties human,416,-1.2789254188537598,105,9,0.08571428571428572,43,3,0.06976744186046512
+Log-Rank (negated) (GPT2-XL),zero-shot,1,0.05,higher,oriented_score > threshold; ties human,417,-1.267058491706848,104,5,0.04807692307692308,43,2,0.046511627906976744
+Log-Rank (negated) (GPT2-XL),zero-shot,2,0.05,higher,oriented_score > threshold; ties human,417,-1.2653359174728394,104,4,0.038461538461538464,42,3,0.07142857142857142
+Log-Rank (negated) (GPT2-XL),zero-shot,3,0.05,higher,oriented_score > threshold; ties human,417,-1.2525992393493652,104,1,0.009615384615384616,42,1,0.023809523809523808
+Log-Rank (negated) (GPT2-XL),zero-shot,4,0.05,higher,oriented_score > threshold; ties human,417,-1.267058491706848,104,5,0.04807692307692308,42,2,0.047619047619047616
+Entropy (GPT2-XL),zero-shot,0,0.05,higher,oriented_score > threshold; ties human,416,-2.626953125,105,10,0.09523809523809523,43,6,0.13953488372093023
+Entropy (GPT2-XL),zero-shot,1,0.05,higher,oriented_score > threshold; ties human,417,-2.572265625,104,5,0.04807692307692308,43,5,0.11627906976744186
+Entropy (GPT2-XL),zero-shot,2,0.05,higher,oriented_score > threshold; ties human,417,-2.55078125,104,4,0.038461538461538464,42,4,0.09523809523809523
+Entropy (GPT2-XL),zero-shot,3,0.05,higher,oriented_score > threshold; ties human,417,-2.544921875,104,3,0.028846153846153848,42,5,0.11904761904761904
+Entropy (GPT2-XL),zero-shot,4,0.05,higher,oriented_score > threshold; ties human,417,-2.57421875,104,6,0.057692307692307696,42,2,0.047619047619047616
+DetectLLM-LRR (GPT2-XL),zero-shot,0,0.05,higher,oriented_score > threshold; ties human,416,2.066583547715253,105,3,0.02857142857142857,43,0,0.0
+DetectLLM-LRR (GPT2-XL),zero-shot,1,0.05,higher,oriented_score > threshold; ties human,417,2.064554742572597,104,6,0.057692307692307696,43,0,0.0
+DetectLLM-LRR (GPT2-XL),zero-shot,2,0.05,higher,oriented_score > threshold; ties human,417,2.0632437054194033,104,7,0.0673076923076923,42,0,0.0
+DetectLLM-LRR (GPT2-XL),zero-shot,3,0.05,higher,oriented_score > threshold; ties human,417,2.0678200909799207,104,2,0.019230769230769232,42,0,0.0
+DetectLLM-LRR (GPT2-XL),zero-shot,4,0.05,higher,oriented_score > threshold; ties human,417,2.05766074308761,104,8,0.07692307692307693,42,0,0.0
+Binoculars (GPT2-XL),zero-shot,0,0.05,higher,oriented_score > threshold; ties human,416,-4.072013093289689,105,9,0.08571428571428572,43,4,0.09302325581395349
+Binoculars (GPT2-XL),zero-shot,1,0.05,higher,oriented_score > threshold; ties human,417,-4.072013093289689,104,9,0.08653846153846154,43,5,0.11627906976744186
+Binoculars (GPT2-XL),zero-shot,2,0.05,higher,oriented_score > threshold; ties human,417,-3.960044395116537,104,4,0.038461538461538464,42,4,0.09523809523809523
+Binoculars (GPT2-XL),zero-shot,3,0.05,higher,oriented_score > threshold; ties human,417,-3.955580233203776,104,2,0.019230769230769232,42,4,0.09523809523809523
+Binoculars (GPT2-XL),zero-shot,4,0.05,higher,oriented_score > threshold; ties human,417,-3.955580233203776,104,2,0.019230769230769232,42,2,0.047619047619047616
+Log Probability (OPT-1.3B),zero-shot,0,0.05,higher,oriented_score > threshold; ties human,416,-2.412109375,105,10,0.09523809523809523,43,8,0.18604651162790697
+Log Probability (OPT-1.3B),zero-shot,1,0.05,higher,oriented_score > threshold; ties human,417,-2.375,104,4,0.038461538461538464,43,11,0.2558139534883721
+Log Probability (OPT-1.3B),zero-shot,2,0.05,higher,oriented_score > threshold; ties human,417,-2.375,104,4,0.038461538461538464,42,7,0.16666666666666666
+Log Probability (OPT-1.3B),zero-shot,3,0.05,higher,oriented_score > threshold; ties human,417,-2.38671875,104,5,0.04807692307692308,42,6,0.14285714285714285
+Log Probability (OPT-1.3B),zero-shot,4,0.05,higher,oriented_score > threshold; ties human,417,-2.345703125,104,1,0.009615384615384616,42,5,0.11904761904761904
+Rank (negated) (OPT-1.3B),zero-shot,0,0.05,higher,oriented_score > threshold; ties human,416,-38.57143020629883,105,8,0.0761904761904762,43,3,0.06976744186046512
+Rank (negated) (OPT-1.3B),zero-shot,1,0.05,higher,oriented_score > threshold; ties human,417,-36.76363754272461,104,4,0.038461538461538464,43,0,0.0
+Rank (negated) (OPT-1.3B),zero-shot,2,0.05,higher,oriented_score > threshold; ties human,417,-35.68902587890625,104,2,0.019230769230769232,42,1,0.023809523809523808
+Rank (negated) (OPT-1.3B),zero-shot,3,0.05,higher,oriented_score > threshold; ties human,417,-34.92727279663086,104,1,0.009615384615384616,42,0,0.0
+Rank (negated) (OPT-1.3B),zero-shot,4,0.05,higher,oriented_score > threshold; ties human,417,-39.017822265625,104,10,0.09615384615384616,42,1,0.023809523809523808
+Log-Rank (negated) (OPT-1.3B),zero-shot,0,0.05,higher,oriented_score > threshold; ties human,416,-1.2006441354751587,105,10,0.09523809523809523,43,6,0.13953488372093023
+Log-Rank (negated) (OPT-1.3B),zero-shot,1,0.05,higher,oriented_score > threshold; ties human,417,-1.1803768873214722,104,5,0.04807692307692308,43,5,0.11627906976744186
+Log-Rank (negated) (OPT-1.3B),zero-shot,2,0.05,higher,oriented_score > threshold; ties human,417,-1.1772664785385132,104,4,0.038461538461538464,42,6,0.14285714285714285
+Log-Rank (negated) (OPT-1.3B),zero-shot,3,0.05,higher,oriented_score > threshold; ties human,417,-1.1754515171051023,104,3,0.028846153846153848,42,6,0.14285714285714285
+Log-Rank (negated) (OPT-1.3B),zero-shot,4,0.05,higher,oriented_score > threshold; ties human,417,-1.1679058074951172,104,2,0.019230769230769232,42,3,0.07142857142857142
+Entropy (OPT-1.3B),zero-shot,0,0.05,higher,oriented_score > threshold; ties human,416,-2.419921875,105,12,0.11428571428571428,43,11,0.2558139534883721
+Entropy (OPT-1.3B),zero-shot,1,0.05,higher,oriented_score > threshold; ties human,417,-2.333984375,104,4,0.038461538461538464,43,9,0.20930232558139536
+Entropy (OPT-1.3B),zero-shot,2,0.05,higher,oriented_score > threshold; ties human,417,-2.298828125,104,2,0.019230769230769232,42,7,0.16666666666666666
+Entropy (OPT-1.3B),zero-shot,3,0.05,higher,oriented_score > threshold; ties human,417,-2.376953125,104,6,0.057692307692307696,42,7,0.16666666666666666
+Entropy (OPT-1.3B),zero-shot,4,0.05,higher,oriented_score > threshold; ties human,417,-2.298828125,104,2,0.019230769230769232,42,4,0.09523809523809523
+DetectLLM-LRR (OPT-1.3B),zero-shot,0,0.05,higher,oriented_score > threshold; ties human,416,2.0504552604579276,105,4,0.0380952380952381,43,3,0.06976744186046512
+DetectLLM-LRR (OPT-1.3B),zero-shot,1,0.05,higher,oriented_score > threshold; ties human,417,2.0473169574419696,104,5,0.04807692307692308,43,0,0.0
+DetectLLM-LRR (OPT-1.3B),zero-shot,2,0.05,higher,oriented_score > threshold; ties human,417,2.0459608209751865,104,7,0.0673076923076923,42,1,0.023809523809523808
+DetectLLM-LRR (OPT-1.3B),zero-shot,3,0.05,higher,oriented_score > threshold; ties human,417,2.0504552604579276,104,4,0.038461538461538464,42,0,0.0
+DetectLLM-LRR (OPT-1.3B),zero-shot,4,0.05,higher,oriented_score > threshold; ties human,417,2.0468171233701944,104,6,0.057692307692307696,42,0,0.0
+Binoculars (OPT-1.3B),zero-shot,0,0.05,higher,oriented_score > threshold; ties human,416,-3.72192513368984,105,11,0.10476190476190476,43,6,0.13953488372093023
+Binoculars (OPT-1.3B),zero-shot,1,0.05,higher,oriented_score > threshold; ties human,417,-3.5671641791044775,104,2,0.019230769230769232,43,9,0.20930232558139536
+Binoculars (OPT-1.3B),zero-shot,2,0.05,higher,oriented_score > threshold; ties human,417,-3.5688487584650113,104,3,0.028846153846153848,42,5,0.11904761904761904
+Binoculars (OPT-1.3B),zero-shot,3,0.05,higher,oriented_score > threshold; ties human,417,-3.6352299298519095,104,6,0.057692307692307696,42,5,0.11904761904761904
+Binoculars (OPT-1.3B),zero-shot,4,0.05,higher,oriented_score > threshold; ties human,417,-3.5962314939434723,104,4,0.038461538461538464,42,5,0.11904761904761904
+OpenAI-RoBERTa-base,pretrained,0,0.05,higher,oriented_score > threshold; ties human,416,0.7871366143226624,105,6,0.05714285714285714,43,0,0.0
+OpenAI-RoBERTa-base,pretrained,1,0.05,higher,oriented_score > threshold; ties human,417,0.8407320976257324,104,3,0.028846153846153848,43,0,0.0
+OpenAI-RoBERTa-base,pretrained,2,0.05,higher,oriented_score > threshold; ties human,417,0.7911166548728943,104,5,0.04807692307692308,42,0,0.0
+OpenAI-RoBERTa-base,pretrained,3,0.05,higher,oriented_score > threshold; ties human,417,0.8407320976257324,104,3,0.028846153846153848,42,0,0.0
+OpenAI-RoBERTa-base,pretrained,4,0.05,higher,oriented_score > threshold; ties human,417,0.7667089104652405,104,7,0.0673076923076923,42,0,0.0
+OpenAI-RoBERTa-large,pretrained,0,0.05,higher,oriented_score > threshold; ties human,416,0.999312162399292,105,7,0.06666666666666667,43,2,0.046511627906976744
+OpenAI-RoBERTa-large,pretrained,1,0.05,higher,oriented_score > threshold; ties human,417,0.999312162399292,104,7,0.0673076923076923,43,1,0.023255813953488372
+OpenAI-RoBERTa-large,pretrained,2,0.05,higher,oriented_score > threshold; ties human,417,0.999313235282898,104,5,0.04807692307692308,42,3,0.07142857142857142
+OpenAI-RoBERTa-large,pretrained,3,0.05,higher,oriented_score > threshold; ties human,417,0.999342143535614,104,4,0.038461538461538464,42,0,0.0
+OpenAI-RoBERTa-large,pretrained,4,0.05,higher,oriented_score > threshold; ties human,417,0.9993485808372498,104,3,0.028846153846153848,42,1,0.023809523809523808
+AIGC-MPU,pretrained,0,0.05,higher,oriented_score > threshold; ties human,416,0.0018090439261868,105,4,0.0380952380952381,43,0,0.0
+AIGC-MPU,pretrained,1,0.05,higher,oriented_score > threshold; ties human,417,0.0018090439261868,104,4,0.038461538461538464,43,1,0.023255813953488372
+AIGC-MPU,pretrained,2,0.05,higher,oriented_score > threshold; ties human,417,0.0014500969555228,104,7,0.0673076923076923,42,1,0.023809523809523808
+AIGC-MPU,pretrained,3,0.05,higher,oriented_score > threshold; ties human,417,0.0021261726506054,104,2,0.019230769230769232,42,0,0.0
+AIGC-MPU,pretrained,4,0.05,higher,oriented_score > threshold; ties human,417,0.0013198879314586,104,10,0.09615384615384616,42,1,0.023809523809523808

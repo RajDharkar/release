@@ -1,0 +1,13 @@
+{
+  "comparisons": 18,
+  "device": "mps",
+  "maximum_absolute_difference": 2.220446049250313e-16,
+  "observer_model_id": "gpt2",
+  "observer_revision": "607a30d783dfa663caf39e06633721c8d4cfcd7e",
+  "performer_model_id": "gpt2-xl",
+  "performer_revision": "15ea56dee5df4983c59b2538573817e1667135e2",
+  "sample_n": 3,
+  "status": "PASS",
+  "tier": "gpt2",
+  "tolerance": 1e-06
+}
