@@ -4,4 +4,4 @@ collection container elements,0,full source scan for collection containers
 exact collection title Fine Clothes to the Jew,0,full source exact-string scan
 aggregate publication range,1921-1928,data/raw/pd_poetry/hughes_se.html:9276-9278
 ranked-list rows carrying 1927,24,data/analysis/hughes_year_assignment_audit.csv:2-25
-1927 set equals ranked-list set,False,computed exact set equality over 229 rows
+1927 set equals ranked-list set,True,computed exact set equality over 229 rows

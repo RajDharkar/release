@@ -1,0 +1,7 @@
+check,value,evidence_location
+construction_source,data/processed/aave_poetry.csv,reports/round4.md:5
+selected_processed_rows,60,data/processed/aave_poetry.csv:159-218
+density_ranked_rows,24,reports/round4.md:510-516
+density_reclassified_rows,36,reports/round4.md:510-516
+annotation_key_rows,60,data/annotation/key.csv:2-61
+blinded_poem_files,60,data/annotation/poems/p01.txt through p60.txt

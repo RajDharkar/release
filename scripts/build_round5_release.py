@@ -193,11 +193,12 @@ def correct_core_tables() -> tuple[pd.DataFrame, pd.DataFrame]:
             {
                 "check": "1927 set equals ranked-list set",
                 "value": bool(
-                    hughes_audit["volume_year"].eq(1927).equals(
-                        hughes_audit["labeling_basis"].str.startswith(
+                    (
+                        hughes_audit["volume_year"].eq(1927).fillna(False).astype(bool)
+                        == hughes_audit["labeling_basis"].str.startswith(
                             "Hughes density-ranked"
-                        )
-                    )
+                        ).astype(bool)
+                    ).all()
                 ),
                 "evidence_location": "computed exact set equality over 229 rows",
             },
