@@ -1,0 +1,10 @@
+matplotlib==3.11.2
+nltk==3.10.3
+numpy==2.5.0
+pandas==3.0.3
+requests==2.34.2
+scikit-learn==1.9.0
+scipy==1.16.3
+spacy==3.7.4
+textstat==0.7.13
+PyYAML==6.0.3
